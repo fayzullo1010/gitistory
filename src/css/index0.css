@@ -1,0 +1,627 @@
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 66666;
+    background-color: rgba(22, 34, 57, .95);
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.header_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.header_components {
+    background-color: #ff5b5b;
+    padding: 6px;
+}
+
+
+.grad-school {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.grad span {
+    color: #ef9e04;
+}
+
+.grad {
+    color: white;
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(22, 34, 57, .85);
+    z-index: 1;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    z-index: 20;
+    position: relative;
+}
+
+.grad-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 10;
+}
+
+.grad-text p {
+    font-size: 20px;
+}
+
+.menu-grad span {
+    color: #ef9e04;
+
+}
+
+.menu-grad {
+    color: white;
+    font-size: 70px;
+    z-index: 20;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #ffa200;
+    color: white;
+    font-size: 15px;
+}
+
+.grad-table {
+    width: 350px;
+    height: 280px;
+    color: white;
+    background-color: rgb(2, 27, 50);
+}
+
+.button1 button {
+    position: relative;
+}
+
+.grad_list {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+}
+
+.grad-table {
+    bottom: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s;
+    top: 0;
+}
+
+.grad-table:hover {
+    top: -216px;
+    background-color: #c68e22;
+}
+
+.grad-vol .real {
+    font-size: 19px;
+    margin: 0;
+    margin-left: 10px;
+
+}
+
+.grad-vol img {
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
+}
+
+.grad-vol {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    height: 116.9vh;
+    position: relative;
+    background-image: url("../img/choosing-bg.jpg");
+}
+
+.color {
+    width: 1px;
+    height: 145px;
+    background-color: white;
+
+}
+
+.section-best {
+    width: 260px;
+    height: 70px;
+    border: 1px solid white;
+    font-size: 21px;
+    color: #fff7f2;
+    margin: 0 auto;
+}
+
+
+
+.section-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-cub1 {
+    width: 20px;
+    height: 20px;
+    background-color: #fff7f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-cub h5 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.section-cub {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-cub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-img img {
+    width: 470px;
+    height: 249px;
+    margin-top: 250px;
+}
+
+.section-pi h2 {
+    color: #fff7f2;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+.section-pi p {
+    color: #fff7f2;
+    width: 470px;
+    margin-left: 100px;
+}
+
+.section-big {
+    display: flex;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+video {
+    width: 100%;
+    height: 145%;
+}
+
+
+.video-color {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(22, 34, 57, .85);
+    opacity: 0.5;
+}
+
+.register-menu {
+    background-image: url("../img/coming-soon-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.register-p h1 span {
+    color: #ef9e04;
+
+}
+
+.register-p h1 {
+    color: white;
+}
+
+.register-minutes {
+    width: 130px;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff7f2;
+    font-size: 23px;
+    background-color: rgba(250, 250, 250, .1);
+}
+
+.register-months {
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-minutes span {
+    color: #ef9e04;
+}
+
+.register-table {
+    width: 30vw;
+    height: 26vh;
+    background-color: rgba(250, 250, 250, .2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-table h6 {
+    color: #fff7f2;
+    text-align: center;
+}
+
+.register-table1 {
+    width: 408px;
+    height: 373px;
+    background-color: rgba(250, 250, 250, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.register-table1 input {
+    background-color: rgba(250, 250, 250, .1);
+    width: 320px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    z-index: 10;
+    margin-left: 45px;
+    padding-left: 5px;
+}
+
+.register-table1 input::placeholder {
+    color: white;
+}
+
+.register10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 276px;
+}
+
+button {
+    width: 133px;
+    height: 40px;
+    background-color: #ef9e04;
+    border: none;
+    box-shadow: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120vh;
+}
+
+.courses {
+    background-image: url("../img/choosing-bg.jpg");
+    background-size: cover;
+    height: 150vh;
+
+}
+
+.courses-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.courses-color {
+    width: 1px;
+    height: 100px;
+    background-color: white;
+
+}
+
+.courses-menu {
+    width: 260px;
+    height: 70px;
+    border: 1px solid white;
+    font-size: 25px;
+    color: #fff7f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.courses-item {
+    width: 249px;
+    height: 462px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.courses-item p {
+    width: 200px;
+    text-align: center;
+}
+
+.courses-image {
+    width: 249px;
+    height: 171px;
+    border-radius: 10px;
+}
+
+.courses-img {
+    width: 40px;
+    border: 2px solid #f5a425;
+    border-radius: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ef9e04;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a img {
+    width: 12px;
+}
+
+
+.courses-big {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.courses-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-born {
+    padding: 30px;
+}
+
+.courses1 {
+    background-image: url("../img/video-bg.jpg");
+    background-size: cover;
+    height: 120vh;
+}
+
+.course-email {
+    display: flex;
+    justify-content: space-around;
+}
+
+.courses-block p, h1 {
+    color: white;
+
+}
+
+.courses-block h1 span {
+    color: #ef9e04;
+}
+
+.courses-block p {
+    width: 520px;
+}
+
+.courses-block {
+    margin-top: 162px;
+}
+
+.courses-logo {
+    position: relative;
+    margin-top: 70px;
+}
+
+.courses-button {
+    width: 220px;
+    height: 50px;
+}
+
+.courses-radio {
+    position: absolute;
+    width: 569px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 402px;
+
+}
+
+.courses-radio img {
+    width: 161px;
+    height: 80px;
+}
+
+.footer {
+    background-image: url("../img/contact-bg.jpg");
+    background-size: cover;
+    height: 130vh;
+}
+
+.contact-heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contact-color {
+   width: 1px;
+    height: 145px;
+    background-color: white;
+    color: white;
+}
+
+.contact-menu {
+    width: 260px;
+    height: 70px;
+    border: 1px solid white;
+    font-size: 25px;
+    color: #fff7f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-item{
+    background-color: rgba(250, 250, 250, .1);
+    width: 550px;
+    height: 515px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+      margin-right: 80px;
+}
+
+.contact-input input{
+    width: 229px;
+    background-color: rgba(250, 250, 250, .1);
+    color: #fff7f2;
+    border: none;
+    outline: none;
+    padding: 9px;
+    margin: 10px;
+
+}
+.contact-input{
+    display: flex;
+}
+.contact-input input::placeholder{
+    color: white;
+}
+iframe{
+    margin-top: 60px;
+    height: 515px;
+}
+
+
+
+.contact-input2 textarea{
+     background-color: rgba(250, 250, 250, .1);
+      border: none;
+    outline: none;
+    padding: 9px;
+    margin: 10px;
+    resize: none;
+    width: 472px;
+    height: 300px;
+    color: white;
+}
+.contact-input2 textarea::placeholder{
+    color: white;
+}
+
+.contacts-button {
+    width: 220px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
